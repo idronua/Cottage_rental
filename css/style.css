@@ -1,0 +1,153 @@
+/*Added Font*/
+
+@font-face {
+  font-family: "Thasadith";
+  src: url('../font/Thasadith/Thasadith-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Thasadith";
+    src: url('../font/Thasadith/Thasadith-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Thasadith";
+    src: url('../font/Thasadith/Thasadith-Italic.ttf');
+    font-style: italic;
+}
+
+/*Font for Headings*/
+@font-face {
+    font-family: "Qwigley";
+    src: url('../font/Qwigley/Qwigley-Regular.ttf');
+}
+
+/*HTML----------*/
+
+body {
+	box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  background-color: #EFE7D8;
+}
+
+.main {
+  background: url('../img/main.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* Navbar---------- */
+
+.main .container a{
+  font-family: "Thasadith";
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 1;
+  
+}
+
+/*Center text -----*/
+
+.heading {
+  color: rgb(122, 114, 114);
+  background: rgba(239, 231, 216, 0.7);
+}
+
+.c_text {
+  font-family: "Thasadith";
+  font-weight: bold;
+  background-color: rgba(122, 114, 114, 0.5);
+  border-radius: 5px;
+}
+.c_text p {
+  font-family: "Thasadith";
+  font-weight: bold;
+  color: #e8e4da;
+}
+
+h1 {
+  font-family: "Qwigley";
+  color: #e8e4da;
+}
+
+/*Section Details */
+
+h3 {
+  font-family: "Qwigley";
+  font-size: 45px;
+}
+
+li {
+  font-family: "Thasadith";
+  font-size: 17px;
+}
+
+
+
+
+/*Section with carousel*/
+
+section .container {
+  font-family: "Thasadith";
+}
+
+.carousel-caption {
+  right: 25%;
+  bottom: 2.25rem;
+  left: 25%;
+  padding-bottom: 0.25rem;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+  background-color: rgba(122, 114, 114, 0.5);
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  top: 45%;
+
+}
+
+/*Rent me section*/
+
+#rent_me .container {
+  height: 85vh;
+}
+
+.rent_me h3 {
+  font-family: "Qwigley";
+  font-size: 45px;
+  /*text-align: center;
+  padding: 0;*/
+}
+
+
+.social a{
+  text-decoration: none;
+  font-family: "Thasadith";
+  
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none
+}
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  border-radius: 30px;
+}
+
+
+footer .container-fluid {
+  background-color: rgba(122, 114, 114, 0.5);
+  font-family: "Thasadith";
+  font-style: italic;
+  color: #e8e4da;
+}
